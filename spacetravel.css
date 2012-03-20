@@ -1,0 +1,41 @@
+body {
+	background-image: url(http://www.californiaindianeducation.org/science_lab/pics/space_photos/Space_Deep.jpg);
+	
+}
+#fly {
+	text-align: center;
+	font-size: 60px;
+	background-color: #fa0;
+}
+.cell {
+	display: table-cell;
+	padding: 4px;
+	transition: background-color 2s;
+	-moz-transition: background-color 2s;
+	-webkit-transition: background-color 2s;
+	-o-transition: background-color 2s;
+}
+.cell:hover {
+	background-color: white !important;
+}
+#container {
+	background-color: white;
+}
+
+#c1 {
+	background-color: #8f3;
+	width: 25%;
+}
+
+#timeline {
+	width: 75%;
+	height: 100px;
+}
+
+#c3 {
+	background-color: #f99;
+}
+
+#by {
+	background-color: #71f;
+}
