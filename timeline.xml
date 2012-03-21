@@ -5,22 +5,295 @@
 	></event>
 	<event
 		start="Mar 17 1958 00:00:00 GMT"
-		title="Satellite Vanguard 1 launched orbits Earth for next 3 years"
+		title="satellite Vanguard 1 launched, orbits earth for next 3 years"
 	></event>
 	<event
 		start="Oct 01 1958 00:00:00 GMT"
 		title="NASA founded"
 	></event>
 	<event
+		start="Oct 11 1958 00:00:00 GMT"
+		title="Pioneer 1 reaches height of 70,700 mi"
+	></event>
+	<event
 		start="Mar 03 1959 00:00:00 GMT"
-		title="Pioneer 4 is first US satellite to orbit sun"
+		title="Pioneer 4 is 1st US satellite to orbit sun"
 	></event>
 	<event
 		start="Apr 01 1960 00:00:00 GMT"
-		title="1st successful weather satellite, Tiros 1 is launched"
+		title="1st successful weather satellite, Tiros 1, is launched"
 	></event>
 	<event
 		start="May 05 1961 00:00:00 GMT"
-		title="Allan Shepard is 1st US astronaut in space-suborbital flight"
+		title="Allan Shepard is 1st US astronaut in space- suborbital flight"
 	></event>
+	<event
+		start="Feb 20 1962 00:00:00 GMT"
+		title="John Glenn becomes 1st American to orbit earth- 3 times"
+	></event>
+	<event
+		start="Jul 10 1962 00:00:00 GMT"
+		title="Telstar 1 transmits 1st live transatlantic TV broadcast"
+	></event>
+	<event
+		start="Dec 14 1962 00:00:00 GMT"
+		title="Mariner 2 is 1st planetary spacecraft, enters solar orbit"
+	></event>
+	<event
+		start="Jul 19 1963 00:00:00 GMT"
+		title="Martin Schmidt discovers 1st known quasar"
+	></event>
+	<event
+		start="Jul 31 1964 00:00:00 GMT"
+		title="Ranger 7 transmits 1st close range pics of moon"
+	></event>
+	<event
+		start="Jun 03 1965 00:00:00 GMT"
+		title="Edward White makes 1st US space walk- 22 mins"
+	></event>
+	<event
+		start="Jul 14 1965 00:00:00 GMT"
+		title="Mariner 4 relays 1st close-range pics of Mars"
+	></event>
+	<event
+		start="Jun 02 1966 00:00:00 GMT"
+		title="Surveyor 1 is 1st US spacecraft to land on moon"
+	></event>
+	<event
+		start="Aug 14 1966 00:00:00 GMT"
+		title="Lunar Orbiter 1 takes 1st pics of earth from moon"
+	></event>
+	<event
+		start="Dec 21 1968 00:00:00 GMT"
+		title="Apollo 8 is 1st manned spacecraft to orbit moon"
+	></event>
+	<event
+		start="Jul 20 1969 00:00:00 GMT"
+		title="Apollo 11 lands on moon- 1st men on moon"
+	></event>
+	<event
+		start="Apr 11 1970 00:00:00 GMT"
+		title="Apollo 13 launched, fails to reach moon"
+	></event>
+	<event
+		start="Jan 31 1971 00:00:00 GMT"
+		title="Apollo 14 lands on moon"
+	></event>
+	<event
+		start="May 30 1971 00:00:00 GMT"
+		title="Mariner 9 is 1st spacecraft to orbit another planet (Mars)"
+	></event>
+	<event
+		start="Jul 30 1971 00:00:00 GMT"
+		title="Apollo 15 lands on moon, 1st astronauts to use moon rover"
+	></event>
+	<event
+		start="Mar 02 1972 00:00:00 GMT"
+		title="Pioneer 10 launched towards Jupiter, 1st manmade object to go through asteroid belt"
+	></event>
+	<event
+		start="Apr 05 1973 00:00:00 GMT"
+		title="Pioneer 11 launched, eventually discovers new rings on Jupiter & Saturn"
+	></event>
+	<event
+		start="May 14 1973 00:00:00 GMT"
+		title="Skylab workshop is launched"
+	></event>
+	<event
+		start="Nov 03 1973 00:00:00 GMT"
+		title="Mariner 10 is launched on 1st duel planet mission, photographs Venus & Mercury"
+	></event>
+	<event
+		start="May 17 1974 00:00:00 GMT"
+		title="1st meteorological satellite launched by NASA"
+	></event>
+	<event
+	<event
+		start="Sep 03 1976 00:00:00 GMT"
+		title="Viking 2 lands on mars, discovers water frost"
+	></event>
+	<event
+		start="Aug 19 1977 00:00:00 GMT"
+		title="September- Voyagers 1&2 leave earth for Jupiter & Saturn"
+	></event>
+	<event
+		start="Nov 19 1978 00:00:00 GMT"
+		title="Einstein Observatory, 1st fully functional space x-ray telescope, starts 30-day mission"
+	></event>
+	<event
+		start="Dec 19 1978 00:00:00 GMT"
+		title="2 Pioneer spacecrafts reach Venus"
+	></event>
+	<event
+		start="Sep 01 1979 00:00:00 GMT"
+		title="Pioneer 11 reaches Saturn, takes 1st close-up pics"
+	></event>
+	<event
+		start="Apr 12 1981 00:00:00 GMT"
+		title="1st mission of space transport system Columbia launched"
+	></event>
+	<event
+		start="Nov 11 1982 00:00:00 GMT"
+		title="Columbia begins 1st operational mission"
+	></event>
+	<event
+	<event
+		start="Jun 19 1983 00:00:00 GMT"
+		title="Sally Ride is 1st US woman in space"
+	></event>
+	<event
+		start="Feb 03 1984 00:00:00 GMT"
+		title="Bruce McCandless is 1st man to take un-tethered spacewalk"
+	></event>
+	<event
+		start="Aug 30 1984 00:00:00 GMT"
+		title="Discovery, 3rd space shuttle, launched"
+	></event>
+	<event
+		start="Oct 05 1984 00:00:00 GMT"
+		title="Challenger launched, Kathryn Sullivan is 1st US woman to space walk"
+	></event>
+	<event
+		start="Oct 04 1985 00:00:00 GMT"
+		title="4th space shuttle, Atlantis, launches 1st mission"
+	></event>
+	<event
+		start="Jan 24 1986 00:00:00 GMT"
+		title="Voyager 2 reaches Uranus, sends pics"
+	></event>
+	<event
+		start="Jan 28 1986 00:00:00 GMT"
+		title="Space Shuttle Challenger explodes"
+	></event>
+	<event
+		start="Feb 25 1987 00:00:00 GMT"
+		title="Supernova 1987A becomes visible"
+	></event>
+	<event
+		start="Aug 19 1989 00:00:00 GMT"
+		title="Voyager 2 sends pics from Neptune"
+	></event>
+	<event
+		start="Oct 18 1989 00:00:00 GMT"
+		title="Spacecraft Galileo takes off for Venus"
+	></event>
+	<event
+		start="Apr 24 1990 00:00:00 GMT"
+		title="Space Shuttle Discovery deploys Hubble Space Telescope"
+	></event>
+	<event
+		start="Aug 10 1990 00:00:00 GMT"
+		title="spacecraft Magellan reaches Venus, begins to map surface"
+	></event>
+	<event
+		start="Apr 05 1991 00:00:00 GMT"
+		title="Compton Gamma Ray Observatory carried into space by Atlantis"
+	></event>
+	<event
+		start="May 02 1992 00:00:00 GMT"
+		title="space shuttle Endeavor launched on 1st mission"
+	></event>
+	<event
+		start="Sep 12 1992 00:00:00 GMT"
+		title="Mae Jemison is 1st African American woman in space"
+	></event>
+	<event
+	<event
+		start="Feb 03 1994 00:00:00 GMT"
+		title="Sergei Krikalev is 1st Russian cosmonaut on US space shuttle"
+	></event>
+	<event
+		start="Oct 12 1994 00:00:00 GMT"
+		title="spacecraft Magellan enters Venusian atmosphere, burns after mission is completed"
+	></event>
+	<event
+		start="Dec 07 1995 00:00:00 GMT"
+		title="spacecraft Galileo reaches Jupiter, orbits for next two years"
+	></event>
+	<event
+	<event
+		start="Jul 04 1997 00:00:00 GMT"
+		title="Mars Pathfinder reaches Mars, sends pics"
+	></event>
+	<event
+		start="Sep 12 1997 00:00:00 GMT"
+		title="Mars Global Surveyor reaches Mars, shows streams, ponds, oceans, dust storms"
+	></event>
+	<event
+		start="Jan 04 1998 00:00:00 GMT"
+		title="Lunar Prospector arrives at moon to search for frozen water at poles"
+	></event>
+	<event
+		start="Oct 24 1998 00:00:00 GMT"
+		title="NASA launches test spacecraft Deep Space 1"
+	></event>
+	<event
+		start="May 27 1999 00:00:00 GMT"
+		title="Space Shuttle /discovery heads for space station, bringing supplies"
+	></event>
+	<event
+		start="Jan 03 2000 00:00:00 GMT"
+		title="Space probe Galileo reaches Europa"
+	></event>
+	<event
+		start="Feb 14 2000 00:00:00 GMT"
+		title="NEAR spacecraft sends pics from asteroid Eros, orbits asteriod"
+	></event>
+	<event
+		start="Feb 14 2001 00:00:00 GMT"
+		title="NEAR lands on Eros, survives- 1st landing on an an asteroid"
+	></event>
+	<event
+		start="Apr 07 2001 00:00:00 GMT"
+		title="2001 Mars odyssey probe is sent to orbit mars"
+	></event>
+	<event
+		start="Jun 30 2001 00:00:00 GMT"
+		title="Microwave Anisotropy Probe is launched 1.5 mil km, measures background radiation"
+	></event>
+	<event
+		start="Feb 01 2003 00:00:00 GMT"
+		title="Space shuttle Columbia explodes on re-entry due to crack in wing"
+	></event>
+	<event
+		start="Dec 31 1969 00:00:00 GMT"
+		title="Galileo’s mission ends after 14 yrs by crashing into Jupiter"
+	></event>
+	<event
+		start="Jan 20 2004 00:00:00 GMT"
+		title="Spirit & oppurtunity rovers reach mars"
+	></event>
+	<event
+		start="Jul 01 2004 00:00:00 GMT"
+		title="Cassini spacecraft takes pics of saturn’s rings"
+	></event>
+	<event
+		start="Jan 14 2005 00:00:00 GMT"
+		title="Huygans probe lands on moon titan- 1st landing on alien moon"
+	></event>
+	<event
+		start="Jul 03 2005 00:00:00 GMT"
+		title="deep impact space probe collides with comet tempel 1- debris recorded & studied"
+	></event>
+	<event
+		start="Jan 15 2006 00:00:00 GMT"
+		title="spacecraft Stardust returns to earth with 1st dust from comet Wild 2"
+	></event>
+	<event
+		start="Aug 04 2007 00:00:00 GMT"
+		title="phoenix mars lander launched, discovers ice & transmits pics from mars"
+	></event>
+	<event
+		start="Mar 06 2009 00:00:00 GMT"
+		title="spacecraft kepler launched to find planets outside of solar system"
+	></event>
+	<event
+		start="Mar 18 2011 00:00:00 GMT"
+		title="spacecraft Messanger is 1st to orbit Mercury"
+	></event>
+	<event
+		start="Jul 08 2011 00:00:00 GMT"
+		title="space shuttle program ends with final launch of Atlantis"
+	></event>
+	<event
 </data>
