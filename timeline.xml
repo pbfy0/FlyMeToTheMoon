@@ -93,7 +93,7 @@
 	></event>
 	<event
 		start="Apr 05 1973 00:00:00 GMT"
-		title="Pioneer 11 launched, eventually discovers new rings on Jupiter & Saturn"
+		title="Pioneer 11 launched, eventually discovers new rings on Jupiter &amp; Saturn"
 	></event>
 	<event
 		start="May 14 1973 00:00:00 GMT"
@@ -101,20 +101,19 @@
 	></event>
 	<event
 		start="Nov 03 1973 00:00:00 GMT"
-		title="Mariner 10 is launched on 1st duel planet mission, photographs Venus & Mercury"
+		title="Mariner 10 is launched on 1st duel planet mission, photographs Venus &amp;Mercury"
 	></event>
 	<event
 		start="May 17 1974 00:00:00 GMT"
 		title="1st meteorological satellite launched by NASA"
 	></event>
 	<event
-	<event
 		start="Sep 03 1976 00:00:00 GMT"
 		title="Viking 2 lands on mars, discovers water frost"
 	></event>
 	<event
 		start="Aug 19 1977 00:00:00 GMT"
-		title="September- Voyagers 1&2 leave earth for Jupiter & Saturn"
+		title="September- Voyagers 1&amp;2 leave earth for Jupiter &amp; Saturn"
 	></event>
 	<event
 		start="Nov 19 1978 00:00:00 GMT"
@@ -136,7 +135,7 @@
 		start="Nov 11 1982 00:00:00 GMT"
 		title="Columbia begins 1st operational mission"
 	></event>
-	<event
+	<!-- -->
 	<event
 		start="Jun 19 1983 00:00:00 GMT"
 		title="Sally Ride is 1st US woman in space"
@@ -197,7 +196,7 @@
 		start="Sep 12 1992 00:00:00 GMT"
 		title="Mae Jemison is 1st African American woman in space"
 	></event>
-	<event
+	<!--<event-->
 	<event
 		start="Feb 03 1994 00:00:00 GMT"
 		title="Sergei Krikalev is 1st Russian cosmonaut on US space shuttle"
@@ -210,7 +209,7 @@
 		start="Dec 07 1995 00:00:00 GMT"
 		title="spacecraft Galileo reaches Jupiter, orbits for next two years"
 	></event>
-	<event
+	<!--<event-->
 	<event
 		start="Jul 04 1997 00:00:00 GMT"
 		title="Mars Pathfinder reaches Mars, sends pics"
@@ -261,7 +260,7 @@
 	></event>
 	<event
 		start="Jan 20 2004 00:00:00 GMT"
-		title="Spirit & oppurtunity rovers reach mars"
+		title="Spirit &amp; oppurtunity rovers reach mars"
 	></event>
 	<event
 		start="Jul 01 2004 00:00:00 GMT"
@@ -273,7 +272,7 @@
 	></event>
 	<event
 		start="Jul 03 2005 00:00:00 GMT"
-		title="deep impact space probe collides with comet tempel 1- debris recorded & studied"
+		title="deep impact space probe collides with comet tempel 1- debris recorded &amp; studied"
 	></event>
 	<event
 		start="Jan 15 2006 00:00:00 GMT"
@@ -281,7 +280,7 @@
 	></event>
 	<event
 		start="Aug 04 2007 00:00:00 GMT"
-		title="phoenix mars lander launched, discovers ice & transmits pics from mars"
+		title="phoenix mars lander launched, discovers ice &amp; transmits pics from mars"
 	></event>
 	<event
 		start="Mar 06 2009 00:00:00 GMT"
@@ -295,5 +294,4 @@
 		start="Jul 08 2011 00:00:00 GMT"
 		title="space shuttle program ends with final launch of Atlantis"
 	></event>
-	<event
 </data>

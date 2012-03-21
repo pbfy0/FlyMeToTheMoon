@@ -14,7 +14,7 @@ function onLoad() {
         intervalPixels: 100
     }),
     Timeline.createBandInfo({
-//	overview: true,
+	overview: true,
 	eventSource:    eventSource,
 	date:           "Jan 31 1958 00:00:00 GMT",
         width:          "30%", 
