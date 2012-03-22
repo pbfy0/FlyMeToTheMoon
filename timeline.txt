@@ -25,9 +25,11 @@ function onLoad() {
   ];
   bandInfos[1].syncWith = 0;
   bandInfos[1].highlight = true;
-
-  tl = Timeline.create($("timeline"), bandInfos);
+  var tle = $("timeline");
+  tl = Timeline.create(tle, bandInfos);
   Timeline.loadXML("timeline.xml", function(xml, url) { eventSource.loadXML(xml, url); });
+  tle.addEventListener('mousedown', function(event){event.preventDefault(); return false;}, false);
+//  tle.addEventListener('mousemove', function(event){event.preventDefault(); return false;}, false);
 }
 var resizeTimerID = null;
 function onResize() {

@@ -10,13 +10,19 @@ body {
 .cell {
 	display: table-cell;
 	padding: 4px;
+}
+.fade {
 	transition: background-color 2s;
 	-moz-transition: background-color 2s;
 	-webkit-transition: background-color 2s;
 	-o-transition: background-color 2s;
 }
-.cell:hover {
+.fade:hover {
 	background-color: white !important;
+}
+
+.row {
+	display: block;
 }
 #container {
 	background-color: white;
@@ -28,8 +34,8 @@ body {
 }
 
 #timeline {
-	width: 75%;
 	height: 100px;
+	cursor: move;
 }
 
 #c3 {
