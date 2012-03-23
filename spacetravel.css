@@ -60,6 +60,14 @@ body {
 .center {
 	text-align: center;
 }
+
+.hide {
+	display: none;
+}
+
+#cs {
+	float: left;
+}
 /*#c1 {
 	color: #fff;
 	transition: background-color 2s, color 2s;
