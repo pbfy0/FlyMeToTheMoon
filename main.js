@@ -1,7 +1,7 @@
 window.SimileAjax.History.enabled = false;
 window.addEventListener('load', onLoad, false);
 window.addEventListener('resize', onResize, false);
-var song;
+var song, tl;
 function $(id){
 	return document.getElementById(id);
 }
@@ -50,18 +50,24 @@ function ytLoad(){
 
 function onYouTubePlayerReady(){
 	song = $("song");
-	song.parentNode.className = "hide";
-	song.className = "";
-	var li = document.createElement("li");
+	var div = document.createElement("div");
 	var a = document.createElement("a");
-	a.addEventListener("click", playSong, false);
+	a.addEventListener("click", toggleSong, false);
 	a.innerHTML = "Play song";
 	a.setAttribute("href", "#");
-	li.appendChild(a);
-	$("linklist").appendChild(li);
-	song.className = "hide";
+	a.setAttribute("id", "songt");
+	div.appendChild(a);
+	$("links").insertBefore(div, $("links").firstChild);
 }
 
-function playSong(){
-	song.playVideo();
+function toggleSong(event){
+	event.preventDefault();
+	if(song.getPlayerState() == 1){
+		song.pauseVideo();
+		$("songt").innerHTML = "Play song";
+	}else{
+		song.playVideo();
+		$("songt").innerHTML = "Pause song";
+	}
+	return false;
 }
