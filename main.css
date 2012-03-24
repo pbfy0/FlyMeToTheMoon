@@ -1,11 +1,21 @@
+@media screen,handheld,projection,tv {
+	body {
+		background-image: url(images/Deepspace.jpg);
+		background-color: #000;
+		color: #fff;
+	}
+	a:visited {
+		color: #ffd700;
+	}
+	.rounded {
+		border: 1px solid white !important;
+	}
+}
 body {
-	background-image: url(images/Deepspace.jpg);
 	font-family: 'Open Sans', sans-serif;
-	height: 100%;
-	background-color: #000;
-	color: #fff;
 }
 #fly {
+	margin-top: 5px;
 	font-size: 60px;
 /*	background-color: #fa0;*/
 }
@@ -31,7 +41,7 @@ body {
 }
 .rounded {
 	border-radius: 10px;
-	border: 1px solid white;
+	border: 1px solid #000;
 }
 .sidebar {
 	display: inline-block;
@@ -53,15 +63,10 @@ body {
 
 #main {
 	padding: 5px;
-	margin-bottom: 50px;
-	display: inline-block;
-	width: 70%;
+	margin: auto 200px 50px;
 	height: 500px;
-}
-
-#container {
-	width: 100%;
-	height: 100%;
+	left: 200px;
+	right: 200px;
 }
 
 .center {
@@ -72,9 +77,9 @@ body {
 	display: none;
 }
 
-#by {
-	border: 1px solid rgba(0,0,0,0);
-}
+/*#by {
+	border: 1px solid rgba(0,0,0,0) !important;
+}*/
 
 #timeline {
 	height: 100px;
@@ -84,26 +89,3 @@ body {
 #song {
 	float: left;
 }
-
-.dark-theme { color: #eee; }
-.dark-theme .timeline-band-0 .timeline-ether-bg { background-color: #333 }
-.dark-theme .timeline-band-1 .timeline-ether-bg { background-color: #111 }
-.dark-theme .timeline-band-2 .timeline-ether-bg { background-color: #222 }
-.dark-theme .timeline-band-3 .timeline-ether-bg { background-color: #444 }
-
-.dark-theme .t-highlight1 { background-color: #003; }
-.dark-theme .p-highlight1 { background-color: #300; }
-
-.dark-theme .timeline-highlight-label-start .label_t-highlight1 { color: #f00; }
-.dark-theme .timeline-highlight-label-end .label_t-highlight1 { color: #115; }
-
-.dark-theme .timeline-band-events .important { color: #c00; }
-.dark-theme .timeline-band-events .small-important { background: #c00; }
-
-.dark-theme .timeline-date-label-em { color: #fff; }
-.dark-theme .timeline-ether-lines { border-color: #555; border-style: solid; }
-.dark-theme .timeline-ether-highlight { background: #555; }
-
-.dark-theme .timeline-event-tape,
-.dark-theme .timeline-small-event-tape { background: #f60; }
-.dark-theme .timeline-ether-weekends { background: #111; }

@@ -35,6 +35,7 @@ function onLoad() {
 }
 var resizeTimerID = null;
 function onResize() {
+//	$("main").style.width = (window.innerWidth - 400) + "px";
     if (resizeTimerID == null) {
         resizeTimerID = window.setTimeout(function() {
             resizeTimerID = null;
