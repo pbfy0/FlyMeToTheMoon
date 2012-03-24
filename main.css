@@ -10,6 +10,14 @@
 	.rounded {
 		border: 1px solid white !important;
 	}
+	.outline {
+		text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	}
+	#by {
+		border-bottom: 1px solid white;
+		border-left: 1px solid white;
+		border-right: 1px solid white;
+	}
 }
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -87,9 +95,7 @@ body {
 	border: 1px solid rgba(0,0,0,0) !important;
 }*/
 #by {
-	border-bottom: 1px solid white;
-	border-left: 1px solid white;
-	border-right: 1px solid white;
+
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 	padding: 2px;
@@ -105,6 +111,3 @@ body {
 	float: left;
 }
 
-.outline {
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
