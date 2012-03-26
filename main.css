@@ -43,6 +43,7 @@ body {
 	border-right: 1px solid white;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	clear: left;
 }
 #header {
 	text-align: center;
@@ -65,12 +66,13 @@ body {
 	display: inline-block;
 	width: 150px;
 	height: 500px;
-	padding: 4px;
+	padding: 5px;
 }
 
 #links {
 	float: left;
 	margin-left: 10px;
+	margin-top: 39px;
 	text-align: center;
 }
 

@@ -1,7 +1,7 @@
 window.SimileAjax.History.enabled = false;
 window.addEventListener('load', onLoad, false);
 window.addEventListener('resize', onResize, false);
-var song, tl;
+var song, tl, trivia;
 function $(id){
 	return document.getElementById(id);
 }
@@ -31,6 +31,8 @@ function onLoad() {
   tl = Timeline.create(tle, bandInfos);
   Timeline.loadXML("timeline.xml", function(xml, url) { eventSource.loadXML(xml, url); });
   tle.addEventListener('mousedown', function(event){event.preventDefault(); return false;}, false);
+  getTrivia();
+  $("fact").addEventListener('click', setTriviaText, false);
 //  tle.addEventListener('mousemove', function(event){event.preventDefault(); return false;}, false);
 }
 var resizeTimerID = null;
@@ -71,4 +73,39 @@ function toggleSong(event){
 		$("songt").innerHTML = "Pause song";
 	}
 	return false;
+}
+
+function xhr(url, cb){
+	var x = new XMLHttpRequest();
+	x.onreadystatechange = function(){
+		if(x.readyState == 4){
+			if(x.status == 200){
+				cb.success(x);
+			}else{
+				cb.fail(x);
+			}
+		}
+	}
+	x.open("GET", url, true);
+	x.send();
+}
+
+function getTrivia(){
+	function success(xh){
+		trivia = xh.responseText.split("\n");
+		setTriviaText();
+	}
+	function fail(xh){
+		
+	}
+	if(!trivia){
+		xhr("trivia", {success: success, fail: fail});
+	}else{
+		setTriviaText();
+	}
+}
+
+function setTriviaText(){
+	var n = Math.round(Math.random()*(trivia.length-1));
+	$("fact").innerHTML = trivia[n];
 }
