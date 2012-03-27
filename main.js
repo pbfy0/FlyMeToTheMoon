@@ -1,8 +1,3 @@
-if(!document.addEventListener){
-	Element.prototype.addEventListener = function(type, handler, useCapture){
-		this.attachEvent(type, handler);
-	}
-}
 window.SimileAjax.History.enabled = false;
 window.addEventListener('load', onLoad, false);
 window.addEventListener('resize', onResize, false);
