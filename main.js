@@ -115,5 +115,5 @@ function getTrivia(){
 function setTriviaText(){
 	ctriv++;
 	ctriv %= trivia.length;
-	$("fact").innerHTML = trivia[n];
+	$("fact").innerHTML = trivia[ctriv];
 }
