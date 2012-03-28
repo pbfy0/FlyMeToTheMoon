@@ -105,8 +105,11 @@ body {
 
 #timeline {
 	height: 100px;
-	cursor: move;
+	cursor: pointer;
 	text-shadow: none;
+}
+#timeline:active {
+	cursor: move;
 }
 
 #song {
