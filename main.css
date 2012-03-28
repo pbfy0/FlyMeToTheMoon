@@ -78,6 +78,7 @@ body {
 
 #fact {
 	margin: auto 10px 5px;
+	cursor: pointer;
 }
 
 #main {
