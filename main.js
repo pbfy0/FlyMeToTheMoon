@@ -1,13 +1,13 @@
 if(!document.addEventListener){
-       document.addEventListener = function(type, handler, useCapture){
+       Element.prototype.addEventListener = XMLHttpRequest.prototype.addEventListener = document.addEventListener = window.addEventListener = function(type, handler, useCapture){
                 this.attachEvent(type, handler);
         }
-       Element.prototype.addEventListener = document.addEventListener;
 }
 window.SimileAjax.History.enabled = false;
 window.addEventListener('load', onLoad, false);
 window.addEventListener('resize', onResize, false);
 var song, tl, trivia;
+var ctriv = 0;
 function $(id){
 	return document.getElementById(id);
 }
@@ -99,6 +99,7 @@ function xhr(url, cb){
 function getTrivia(){
 	function success(xh){
 		trivia = xh.responseText.split("\n");
+		ctriv = Math.round(Math.random()*(trivia.length-1));
 		setTriviaText();
 	}
 	function fail(xh){
@@ -112,6 +113,7 @@ function getTrivia(){
 }
 
 function setTriviaText(){
-	var n = Math.round(Math.random()*(trivia.length-1));
-	$("fact").innerHTML = trivia[n];
+	ctriv++;
+	ctriv %= trivia.length;
+	$("fact").innerHTML = trivia[ctriv];
 }
