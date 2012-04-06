@@ -1,6 +1,6 @@
 if(!document.addEventListener){
        Element.prototype.addEventListener = XMLHttpRequest.prototype.addEventListener = document.addEventListener = window.addEventListener = function(type, handler, useCapture){
-                this.attachEvent(type, handler);
+                this.attachEvent("on" + type, handler);
         }
 }
 window.SimileAjax.History.enabled = false;
