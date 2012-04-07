@@ -2,6 +2,7 @@
 window.addEventListener('load', onLoad, false);
 window.addEventListener('hashchange', hashChange, false);
 var panelHash = "";
+var linkHash = "";
 var hashIgnores = {};
 function $(el){
 	return document.getElementById(el);
@@ -45,16 +46,13 @@ function switchEl(n){
 }
 
 function hashChange(event){
-	console.log(event);
-	var nu = event.newURL.match(".*?#(.*)$")[1];
-	var m = nu.match("(.*?/)#(.*)");
-	var hash = m ? m[1] : nu;
-	console.log(hash);
-	if(hash in hashIgnores){
-		switchEl(hash);
+	var parts = location.hash.substring(1).split("/");
+	var slashed = parts[0];
+	if(slashed in hashIgnores && slashed != panelHash){
+		switchEl(slashed);
 		return;
 	}
-//	location.hash = "#" + panelHash + "/" + hash;
+	location.hash = "#" + panelHash + parts[1];
 }
 
 function toArray(a){
