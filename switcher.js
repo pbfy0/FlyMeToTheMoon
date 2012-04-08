@@ -12,13 +12,14 @@ function $$(sel){
 }
 function onLoad(){
 	var i;
+	var f = true;
 	var cn = $$("a.switch");
 	var l = location.hash.substring(1);
 	for(i in cn){
 		if(!(cn[i] instanceof Element))continue;
-		if(!l){
+		if(f){
 			location.hash=cn[i].getAttribute("href").substring(1);
-			l=true;
+			f=false;
 		}
 //		cn[i].addEventListener('click', function(){switchEl(this.getAttribute("href").substring(1))}, false);
 		hashIgnores[cn[i].getAttribute("href").substring(1)] = true;
@@ -46,13 +47,15 @@ function switchEl(n){
 }
 
 function hashChange(event){
-	var parts = location.hash.substring(1).split("/");
+	var parts = event.newURL.match(".*?#(.*)")[1].split("/");
 	var slashed = parts[0] + "/";
-	if(slashed in hashIgnores && slashed != panelHash){
+	if(slashed in hashIgnores && slashed != panelHash && !(parts[1])){
 		switchEl(slashed);
 		return;
 	}
-	location.hash = "#" + panelHash + parts[1];
+	var nh = "#" + panelHash + (panelHash == parts[0] + "/" ? "" : (parts[1] || parts[0]));
+	if(location.hash==nh)return;
+	location.hash = nh;
 }
 
 function toArray(a){
