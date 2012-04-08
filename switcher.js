@@ -12,9 +12,9 @@ function $$(sel){
 }
 function onLoad(){
 	var i;
-	var f = true;
 	var cn = $$("a.switch");
 	var l = location.hash.substring(1);
+	var f = !l;
 	for(i in cn){
 		if(!(cn[i] instanceof Element))continue;
 		if(f){
@@ -53,7 +53,7 @@ function hashChange(event){
 		switchEl(slashed);
 		return;
 	}
-	var nh = "#" + panelHash + (panelHash == parts[0] + "/" ? "" : (parts[1] || parts[0]));
+	var nh = "#" + panelHash + (panelHash == parts[1] + "/" ? "" : parts[1]);
 	if(location.hash==nh)return;
 	location.hash = nh;
 }
