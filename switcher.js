@@ -47,7 +47,7 @@ function switchEl(n){
 
 function hashChange(event){
 	var parts = location.hash.substring(1).split("/");
-	var slashed = parts[0];
+	var slashed = parts[0] + "/";
 	if(slashed in hashIgnores && slashed != panelHash){
 		switchEl(slashed);
 		return;
